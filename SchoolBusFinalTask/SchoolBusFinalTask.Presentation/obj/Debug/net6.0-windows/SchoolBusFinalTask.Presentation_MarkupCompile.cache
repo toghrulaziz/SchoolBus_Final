@@ -1,0 +1,20 @@
+﻿SchoolBusFinalTask.Presentation
+
+
+winexe
+C#
+.cs
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Presentation\obj\Debug\net6.0-windows\
+SchoolBusFinalTask.Presentation
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Presentation\App.xaml
+19-1220227166
+
+43-1832075237
+2321702298056
+Views\AddCarView.xaml;Views\AddClassView.xaml;Views\AddDriverView.xaml;Views\AddParentView.xaml;Views\AddStudentView.xaml;Views\CarView.xaml;Views\ClassView.xaml;Views\CreateRideView.xaml;Views\DriverView.xaml;Views\EditCarView.xaml;Views\EditClassView.xaml;Views\EditDriverView.xaml;Views\EditParentView.xaml;Views\EditStudentView.xaml;Views\HolidaysView.xaml;Views\MainWindow.xaml;Views\ParentView.xaml;Views\RidesView.xaml;Views\StudentView.xaml;
+
+False
+

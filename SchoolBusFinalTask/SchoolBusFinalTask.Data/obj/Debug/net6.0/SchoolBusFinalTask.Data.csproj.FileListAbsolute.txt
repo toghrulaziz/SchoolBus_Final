@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\bin\Debug\net6.0\SchoolBusFinalTask.Data.deps.json
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\bin\Debug\net6.0\SchoolBusFinalTask.Data.runtimeconfig.json
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\bin\Debug\net6.0\SchoolBusFinalTask.Data.dll
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\bin\Debug\net6.0\SchoolBusFinalTask.Data.pdb
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\bin\Debug\net6.0\SchoolBusFinalTask.Models.dll
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\bin\Debug\net6.0\SchoolBusFinalTask.Models.pdb
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.csproj.CopyComplete
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.dll
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\refint\SchoolBusFinalTask.Data.dll
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.pdb
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\SchoolBusFinalTask.Data.genruntimeconfig.cache
+C:\Users\User\Desktop\SchoolBus Final Task\SchoolBusFinalTask\SchoolBusFinalTask.Data\obj\Debug\net6.0\ref\SchoolBusFinalTask.Data.dll

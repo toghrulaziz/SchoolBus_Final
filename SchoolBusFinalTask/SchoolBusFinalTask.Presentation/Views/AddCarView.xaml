@@ -1,0 +1,38 @@
+﻿<Window x:Class="SchoolBusFinalTask.Presentation.Views.AddCarView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolBusFinalTask.Presentation.Views"
+        mc:Ignorable="d"
+        Title="AddCarView" Height="200" Width="600">
+    <Grid>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Name:" Margin="10"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="10" BorderBrush="Orange" Name="CarNameTextBox" Text="{Binding Name, Mode=TwoWay}"/>
+
+        <TextBlock Grid.Row="1" Text="Number:" Margin="10" />
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="10" BorderBrush="Orange" Name="CarNumberTextBox" Text="{Binding CarNumber, Mode=TwoWay}"/>
+
+        <TextBlock Grid.Row="2" Text="Seat Count:" Margin="10" />
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="10" BorderBrush="Orange" Name="CarSeatCountTextBox" Text="{Binding SeatCount, Mode=TwoWay}"/>
+
+        
+        <Button Grid.Row="3" Content="Create" Margin="10" Grid.ColumnSpan="2" Background="Orange" Width="100" Command="{Binding SubmitCommand}"/>
+
+
+    </Grid>
+</Window>

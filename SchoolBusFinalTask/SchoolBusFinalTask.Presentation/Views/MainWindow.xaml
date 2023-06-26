@@ -1,0 +1,46 @@
+﻿<Window x:Class="SchoolBusFinalTask.Presentation.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolBusFinalTask.Presentation.Views"
+        xmlns:viewModel="clr-namespace:SchoolBusFinalTask.Presentation.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewModel:MainViewModel}"
+        mc:Ignorable="d"
+        Title="School Bus" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2.5*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Image Source="/Images/SchoolBus2.png"/>
+
+            <Button Content="Create Ride" Grid.Row="1" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding CreateRideCommand}"/>
+            <Button Content="Rides" Grid.Row="2" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding RidesViewCommand}"/>
+            <Button Content="Class" Grid.Row="3" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding ClassViewCommand}"/>
+            <Button Content="Student" Grid.Row="4" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding StudentViewCommand}"/>
+            <Button Content="Parent" Grid.Row="5" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding ParentViewCommand}"/>
+            <Button Content="Driver" Grid.Row="6" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding DriverViewCommand}"/>
+            <Button Content="Car" Grid.Row="7" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding CarViewCommand}"/>
+            <Button Content="Holidays" Grid.Row="8" Background="Transparent" Margin="5,8" BorderBrush="Orange" Command="{Binding HolidaysViewCommand}"/>
+          
+        </Grid>
+
+        <ContentControl Grid.Column="1" Content="{Binding CurrentViewModel}"/>
+
+    </Grid>
+</Window>
